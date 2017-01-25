@@ -1,11 +1,12 @@
 {
-  "name": "simditor",
+  "name": "simditor-en-esteroides",
   "version": "2.3.6",
   "homepage": "http://simditor.tower.im/",
   "authors": [
-    "farthinker <farthinker@gmail.com>"
+    "farthinker <farthinker@gmail.com>",
+    "VengadoraVG <vengadoravg@gmail.com>"
   ],
-  "description": "A simple online editor",
+  "description": "a fork without coffee, fixing some bugs and adding some features :D",
   "main": [
     "lib/simditor.js",
     "styles/simditor.css"

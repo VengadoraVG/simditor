@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'enum-glyph';
+
+    src:url('../fonts/enum-glyph.eot');
+    src:url('../fonts/enum-glyph.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/enum-glyph.svg#enum-glyph') format('embedded-opentype'),
+        url('../fonts/enum-glyph.woff') format('woff'),
+        url('../fonts/enum-glyph.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* extraído del .css de simditor-fullscreen */
+[class^="enum-icon-"], [class*=" icon-"] {
+    font-family: 'enum-glyph';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.enum-icon-upper-roman:before {
+    content: "\0052";
+}
+
+.enum-icon-lower-roman:before {
+    content: "\0072";
+}
+
+.enum-icon-upper-alpha:before {
+    content: "\0041"
+}
+
+.enum-icon-lower-alpha:before {
+    content: "\0061"
+}
+
+.upper-roman {
+    list-style-type: upper-roman !important;
+}
+
+.lower-roman {
+    list-style-type: lower-roman !important;
+}
+
+.upper-alpha {
+    list-style-type: upper-alpha !important;
+}
+
+.lower-alpha {
+    list-style-type: lower-alpha !important;
+}
